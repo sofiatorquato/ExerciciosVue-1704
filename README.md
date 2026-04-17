@@ -1,5 +1,47 @@
-# Vue 3 + Vite
+# 🚀 Exercícios de Vue.js + Vite
+Este repositório contém uma série de exercícios práticos para dominar os fundamentos do Vue.js 3, utilizando a Composition API com JavaScript puro. Cada exercício foi desenvolvido como um componente independente para facilitar o estudo.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## 🛠️ Tecnologias Utilizadas
+* Vue 3 (Composition API)
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+* Vite (Build tool) 
+
+* JavaScript (ES6+)
+
+* VS Code
+
+## 📝 Detalhamento dos Exercícios
+### 1. Contador Reativo (ref)\
+**Objetivo:** Praticar a manipulação de estado numérico e eventos.
+
+**Conceitos:** Uso de ref, diretiva @click e interpolação.
+
+**O que faz:** Aumenta e diminui um número exibido na tela.\
+
+### 2. Ligação de Dados Bidirecional (v-model)
+**Objetivo:** Sincronizar entradas de formulário com o estado do componente.
+
+**Conceitos:** v-model.
+
+**O que faz:** Exibe o que o usuário digita em tempo real e permite limpar o campo.
+
+### 3. Renderização Condicional (v-if)
+**Objetivo:** Controlar a visibilidade de elementos e textos baseados em lógica.
+
+**Conceitos:** v-if e Operador Ternário.
+
+**O que faz:** Um botão que alterna a visibilidade de uma mensagem e muda seu próprio texto entre "Mostrar" e "Esconder".
+
+### 4. Listagem Dinâmica (v-for)
+**Objetivo:** Renderizar múltiplos elementos a partir de uma lista.
+
+**Conceitos:** Diretiva v-for.
+
+**O que faz:** Percorre um array de dados e gera uma lista HTML automaticamente.
+
+### 5. Estilização Dinâmica (:class)
+**Objetivo:** Alterar o CSS de um elemento dinamicamente.
+
+**Conceitos:** Class Binding (:class).
+
+**O que faz:** Adiciona ou remove classes CSS conforme o estado de uma variável booleana.
